@@ -39,6 +39,7 @@ app.get("/test",(req,res)=>{
 
 app.get("/", (req, res) => {
   res.send("Welcome to Testing IDX");
+  res.send("try /test");
 });
 
 // Start Server
