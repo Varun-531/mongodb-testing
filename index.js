@@ -33,6 +33,10 @@ mongoose
 
 const CLERK_BASE_URL = "https://api.clerk.dev/v1";
 
+app.get("/test",(req,res)=>{
+  res.send("Testing");
+});
+
 app.get("/", (req, res) => {
   res.send("Welcome to Testing IDX");
 });
